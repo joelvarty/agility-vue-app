@@ -1,4 +1,5 @@
 # vue-agility-app
+This is a VueJS site using the Agility Content Fetch SDK.
 
 ## Project setup
 ```
