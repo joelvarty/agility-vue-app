@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import AgilityPage from "./agility/AgilityPage";
-import Home from './views/Home.vue'
 
 Vue.use(Router)
 
