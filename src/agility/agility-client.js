@@ -63,7 +63,9 @@ class AgilityClient {
 					if (newConfig && newConfig.languageCode) {
 						storedConfig = newConfig;
 					}
-				} catch (parseError) { }
+				} catch (parseError) {
+					if (console) console.warn("Error parsing json from session storage", str);
+				}
 			}
 		}
 
